@@ -1,0 +1,35 @@
+{
+    "version": "2.2.6776.40900",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Jonno12345/TileIconifier/releases/download/v2.2.6776.40900/TileIconifier.v2.2.6776.40900.x64.zip"
+        },
+        "32bit": {
+            "url": "https://github.com/Jonno12345/TileIconifier/releases/download/v2.2.6776.40900/TileIconifier.v2.2.6776.40900.x86.zip"
+        }
+    },
+    "home": "https://github.com/Jonno12345/TileIconifier",
+    "checkver": "github",
+    "bin": [
+        [
+            "TileIconifier.exe",
+            "tileiconifier"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "TileIconifier.exe",
+            "TileIconifier"
+        ]
+    ],
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Jonno12345/TileIconifier/releases/download/v$version/TileIconifier.v$matchVer.x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/Jonno12345/TileIconifier/releases/download/v$version/TileIconifier.v$matchVer.x86.zip"
+            }
+        }
+    }
+}
