@@ -8,7 +8,7 @@
             "url": "https://github.com/Jonno12345/TileIconifier/releases/download/v2.2.6776.40900/TileIconifier.v2.2.6776.40900.x86.zip"
         }
     },
-    "home": "https://github.com/Jonno12345/TileIconifier",
+    "homepage": "https://github.com/Jonno12345/TileIconifier",
     "checkver": "github",
     "bin": [
         [
